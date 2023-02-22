@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SQL_app.Page2"
+             Title="Player Input">
+    <VerticalStackLayout>
+        <Label x:Name="label1" 
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Label x:Name="player_id" 
+            Text="Player Id:" />
+        <Entry x:Name="player_idText" Placeholder="Enter text"/>
+
+        <Label x:Name="first_name" 
+            Text="First Name:" />
+        <Entry x:Name="first_nameText" Placeholder="Enter text"/>
+
+        <Label x:Name="last_name" 
+            Text="Last Name:" />
+        <Entry x:Name="last_nameText" Placeholder="Enter text"/>
+
+        <Label x:Name="phone_num" 
+            Text="Phone Number:" />
+        <Entry x:Name="phone_numText" Placeholder="Enter text"/>
+
+        <Label x:Name="discord_id" 
+            Text="Discord Id:" />
+        <Entry x:Name="discord_idText" Placeholder="Enter text"/>
+
+        <Label x:Name="esport_game" 
+            Text="Esport Game:" />
+        <Entry x:Name="esport_gameText" Placeholder="Enter text"/>
+
+        <Button x:Name="button1" Text="Change" Clicked="button1_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>
